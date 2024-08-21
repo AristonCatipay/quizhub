@@ -107,22 +107,22 @@ function loadQuiz(topic) {
       {
         question: "How do you create a new branch in Git?",
         choices: [
-          "git create-branch",
-          "git branch-new",
-          "git new-branch",
-          "git branch",
+          "git create-branch [branch-name]",
+          "git branch-new [branch-name]",
+          "git new-branch [branch-name]",
+          "git branch [branch-name]",
         ],
-        answer: "git branch",
+        answer: "git branch [branch-name]",
       },
       {
         question: "What command is used to switch to a different branch in Git?",
         choices: [
-          "git switch/checkout",
+          "git switch or git checkout",
           "git shift",
           "git change",
           "git branch",
         ],
-        answer: "git switch/checkout",
+        answer: "git switch or git checkout",
       },
       {
         question: "How do you merge two branches in Git?",
