@@ -24,6 +24,16 @@ function loadQuiz(topic) {
         answer: "Command Line Interface",
       },
       {
+        question: "What does GUI stand for?",
+        choices: [
+          "General Utility Interface",
+          "Global Unique Identifier",
+          "Graphical User Interface",
+          "Generic User Interface",
+        ],
+        answer: "Graphical User Interface",
+      },
+      {
         question: "How do you list files in a directory using CLI?",
         choices: ["list", "show", "ls", "dir"],
         answer: "ls",
