@@ -65,17 +65,6 @@ function loadQuiz(topic) {
         choices: ["cls", "clear", "clrt", "clean"],
         answer: "clear",
       },
-      {
-        question:
-          "Statement A: The Git CLI allows users to track changes in files within a project. Statement B: The Git CLI is primarily used for graphical user interface (GUI) interactions.",
-        choices: [
-          "Statement A is true, statement B is false.",
-          "Statement B is true, statement A is false.",
-          "Both statement are false.",
-          "Both statement are true.",
-        ],
-        answer: "Statement B is true, statement A is false.",
-      },
     ],
     "Git & GitHub": [
       {
@@ -90,7 +79,7 @@ function loadQuiz(topic) {
       },
       {
         question:
-          "What command is used in the Git command-line interface (CLI) to initialize a repository in the current directory?",
+          "What command is used in the Git to initialize a repository in the current directory?",
         choices: ["git init", "git start", "git create", "git setup"],
         answer: "git init",
       },
@@ -128,14 +117,13 @@ function loadQuiz(topic) {
       {
         question: "What command is used to switch to a different branch in Git?",
         choices: [
-          "git switch",
+          "git switch/checkout",
           "git shift",
           "git change",
           "git branch",
         ],
-        answer: "git switch",
+        answer: "git switch/checkout",
       },
-      
       {
         question: "How do you merge two branches in Git?",
         choices: ["git merge", "git join", "git combine", "git connect"],
@@ -281,12 +269,6 @@ function loadQuiz(topic) {
           "Which CSS property is used to create space between lines of text?",
         choices: ["spacing", "line-height", "margin", "line-spacing"],
         answer: "line-height",
-      },
-      {
-        question:
-          "Which CSS property is used to specify the size and style of the bullets in a list?",
-        choices: ["list-style", "bullet-style", "style", "list"],
-        answer: "list-style",
       },
     ],
     "Intermediate CSS": [
@@ -470,7 +452,6 @@ function loadQuiz(topic) {
           "Which method is used to get an HTML element by its ID in JavaScript?",
         choices: [
           "getElementById()",
-          "querySelector()",
           "getElementsByClassName()",
           "getElementsByTagName()",
         ],
